@@ -1,8 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:os_project/Page/Register.dart';
-import 'Login.dart';
+import 'package:os_project/Page/Login.dart'; // Assuming your login page is imported from this path
 import 'package:os_project/comp/Txt.dart';
 
 class Home extends StatelessWidget {
@@ -19,9 +17,17 @@ class Home extends StatelessWidget {
                 txt(tex: FirebaseAuth.instance.currentUser!.email ?? ""),
                 IconButton(
                   onPressed: () async {
-                    await FirebaseAuth.instance.signOut();
-                    Navigator.pushNamedAndRemoveUntil(
-                        context, "Login", (route) => true);
+                    try {
+                      await FirebaseAuth.instance.signOut();
+                      Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(builder: (context) => Login()),
+                        (route) => false,
+                      );
+                    } catch (e) {
+                      print("Error signing out: $e");
+                    
+                    }
                   },
                   icon: Icon(Icons.logout),
                 ),
