@@ -40,6 +40,8 @@ dependencies:
   sign_in_with_apple: ^6.0.0
   firebase_core: ^2.27.1
   firebase_auth: ^4.17.9
+  lite_rolling_switch: ^1.0.1
+  convex_bottom_bar: ^3.2.0
   
   
 
@@ -71,6 +73,14 @@ flutter:
     - Asset/Apple.png
     - Asset/Facebook.png
     - Asset/Google.png
+    - Asset/1.jpg
+    - Asset/2.jpg
+    - Asset/3.jpg
+    - Asset/4.png
+    - Asset/5.png
+    - Asset/6.jpeg
+    - Asset/7.jpg
+    - Asset/user.png
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

@@ -4,11 +4,13 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:os_project/Page/Home.dart';
 import 'package:os_project/Page/Register.dart';
-
-import 'firebase_options.dart';
-
-
 import 'Page/Login.dart';
+import 'firebase_options.dart';
+import 'Page/Video_playback_option.dart';
+import 'package:os_project/Page/home_layout.dart';
+
+
+
 
 
 void main() async{
@@ -24,11 +26,12 @@ class APP extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirebaseAuth.instance.currentUser ==null? Login():Home(),
+      home: FirebaseAuth.instance.currentUser ==null? Login():HomeLayout(),
       routes: {
         "Login":(context) => Login(),
-        "Home":(context) => Home(),
+        "Home":(context) => HomeLayout(),
         "Register":(context) => Register(),
+        "Voption":(context)=> Video_playback_option(),
       },
     );
   }
