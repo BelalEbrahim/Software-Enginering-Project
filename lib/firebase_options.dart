@@ -27,10 +27,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.macOS:
         return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -44,38 +41,53 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBE65m2tnyG5h1i1knvfAKBTvhAPePL26I',
-    appId: '1:48669052280:web:0b66ae6524ee51d3a44c8d',
-    messagingSenderId: '48669052280',
-    projectId: 'project1-ce6a5',
-    authDomain: 'project1-ce6a5.firebaseapp.com',
-    storageBucket: 'project1-ce6a5.appspot.com',
-    measurementId: 'G-K2NEBMR3SD',
+    apiKey: 'AIzaSyAFI8QGnZHre4JAwhH9dwDF2KtBWsRxUCI',
+    appId: '1:914092108145:web:002f4c9f7c5ecd5d6feed0',
+    messagingSenderId: '914092108145',
+    projectId: 'e-learning-app-c05fc',
+    authDomain: 'e-learning-app-c05fc.firebaseapp.com',
+    storageBucket: 'e-learning-app-c05fc.appspot.com',
+    measurementId: 'G-QDZXC06VKM',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCooiUhOhEHtYpir6QjsgtgNvdagxIVM9w',
-    appId: '1:48669052280:android:f74edea70b810253a44c8d',
-    messagingSenderId: '48669052280',
-    projectId: 'project1-ce6a5',
-    storageBucket: 'project1-ce6a5.appspot.com',
+    apiKey: 'AIzaSyA9hSvRAbArwi-XfWV4HlRroZ_Twdrk2PY',
+    appId: '1:914092108145:android:ee791dca7f2ddee26feed0',
+    messagingSenderId: '914092108145',
+    projectId: 'e-learning-app-c05fc',
+    storageBucket: 'e-learning-app-c05fc.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAeV-hrV34whi2IDjrED8TT2oQ2a2lHy4M',
-    appId: '1:48669052280:ios:16fa759faf61b6a3a44c8d',
-    messagingSenderId: '48669052280',
-    projectId: 'project1-ce6a5',
-    storageBucket: 'project1-ce6a5.appspot.com',
+    apiKey: 'AIzaSyAITFiy2mu79ZcLkpEd4BBx8X_rHnopYA8',
+    appId: '1:914092108145:ios:73f88a5de414d4ed6feed0',
+    messagingSenderId: '914092108145',
+    projectId: 'e-learning-app-c05fc',
+    storageBucket: 'e-learning-app-c05fc.appspot.com',
+    androidClientId: '914092108145-bjagceqs1eaivg0mkcd6o9ga27k1d2pc.apps.googleusercontent.com',
+    iosClientId: '914092108145-5v5mt90poj34tlk0a4pbs5lunjok4llf.apps.googleusercontent.com',
     iosBundleId: 'com.example.swproject',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAeV-hrV34whi2IDjrED8TT2oQ2a2lHy4M',
-    appId: '1:48669052280:ios:a78288f63e5d385ea44c8d',
-    messagingSenderId: '48669052280',
-    projectId: 'project1-ce6a5',
-    storageBucket: 'project1-ce6a5.appspot.com',
-    iosBundleId: 'com.example.swproject.RunnerTests',
+    apiKey: 'AIzaSyAITFiy2mu79ZcLkpEd4BBx8X_rHnopYA8',
+    appId: '1:914092108145:ios:73f88a5de414d4ed6feed0',
+    messagingSenderId: '914092108145',
+    projectId: 'e-learning-app-c05fc',
+    storageBucket: 'e-learning-app-c05fc.appspot.com',
+    androidClientId: '914092108145-bjagceqs1eaivg0mkcd6o9ga27k1d2pc.apps.googleusercontent.com',
+    iosClientId: '914092108145-5v5mt90poj34tlk0a4pbs5lunjok4llf.apps.googleusercontent.com',
+    iosBundleId: 'com.example.swproject',
   );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyAFI8QGnZHre4JAwhH9dwDF2KtBWsRxUCI',
+    appId: '1:914092108145:web:843975f056de388d6feed0',
+    messagingSenderId: '914092108145',
+    projectId: 'e-learning-app-c05fc',
+    authDomain: 'e-learning-app-c05fc.firebaseapp.com',
+    storageBucket: 'e-learning-app-c05fc.appspot.com',
+    measurementId: 'G-37BKDLL518',
+  );
+
 }

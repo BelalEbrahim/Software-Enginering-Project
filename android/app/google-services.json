@@ -1,26 +1,123 @@
 {
   "project_info": {
-    "project_number": "48669052280",
-    "project_id": "project1-ce6a5",
-    "storage_bucket": "project1-ce6a5.appspot.com"
+    "project_number": "914092108145",
+    "project_id": "e-learning-app-c05fc",
+    "storage_bucket": "e-learning-app-c05fc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:48669052280:android:f74edea70b810253a44c8d",
+        "mobilesdk_app_id": "1:914092108145:android:925fd4332dfd13606feed0",
         "android_client_info": {
-          "package_name": "com.example.swproject"
+          "package_name": "com.Elearning.swproject"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "914092108145-bjagceqs1eaivg0mkcd6o9ga27k1d2pc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Elearning.swproject",
+            "certificate_hash": "e521a2ce474943aa9c62f6d69a634e6dd0d52558"
+          }
+        },
+        {
+          "client_id": "914092108145-4rbbpsi7qq96cjau52asdav99ko0ore2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCooiUhOhEHtYpir6QjsgtgNvdagxIVM9w"
+          "current_key": "AIzaSyA9hSvRAbArwi-XfWV4HlRroZ_Twdrk2PY"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914092108145-4rbbpsi7qq96cjau52asdav99ko0ore2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "914092108145-5v5mt90poj34tlk0a4pbs5lunjok4llf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.swproject"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914092108145:android:ee791dca7f2ddee26feed0",
+        "android_client_info": {
+          "package_name": "com.example.swproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914092108145-4rbbpsi7qq96cjau52asdav99ko0ore2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9hSvRAbArwi-XfWV4HlRroZ_Twdrk2PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914092108145-4rbbpsi7qq96cjau52asdav99ko0ore2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "914092108145-5v5mt90poj34tlk0a4pbs5lunjok4llf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.swproject"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914092108145:android:f3ecdbb3b97981326feed0",
+        "android_client_info": {
+          "package_name": "net.grapex.udemyclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914092108145-4rbbpsi7qq96cjau52asdav99ko0ore2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9hSvRAbArwi-XfWV4HlRroZ_Twdrk2PY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914092108145-4rbbpsi7qq96cjau52asdav99ko0ore2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "914092108145-5v5mt90poj34tlk0a4pbs5lunjok4llf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.swproject"
+              }
+            }
+          ]
         }
       }
     }

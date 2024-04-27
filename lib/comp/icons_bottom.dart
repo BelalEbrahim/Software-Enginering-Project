@@ -32,7 +32,7 @@ class icons_bottom extends StatelessWidget {
                 final user = await Uaer_controller.loginWithGoogle(); // Ensure the correct class name is used
                 if (user != null ) {
                   Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => const Home())
+                    MaterialPageRoute(builder: (context) => Home())
                   );
                 }
               } on FirebaseAuthException catch (error) {
